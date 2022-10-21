@@ -1,2 +1,5 @@
 # Octopus microRNAs
 This repository contains the data and code associated with "MicroRNAs are deeply linked to the emergence of the complex octopus brain" manuscript. 
+
+## Genome annotation   
+Genome annotation files are stored in `genome_annotation` folder.   
