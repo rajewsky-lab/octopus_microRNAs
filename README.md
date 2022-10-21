@@ -5,3 +5,4 @@ This repository contains the data and code associated with "MicroRNAs are deeply
 
 ## Genome annotation   
 Genome annotation files are stored in `genome_annotation` folder.   
+`Octopus_sinensis_annotation.gtf.zip` - genome annotation obtained in the study.  
