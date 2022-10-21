@@ -1,4 +1,4 @@
-# Octopus microRNAs
+# MicroRNAs are deeply linked to the emergence of the complex octopus brain
 This repository contains the data and code associated with "MicroRNAs are deeply linked to the emergence of the complex octopus brain" manuscript. 
 
 ![Fig1](img/Fig1_github.png)
