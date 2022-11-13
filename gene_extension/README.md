@@ -14,7 +14,11 @@ Clone repository:
 git clone https://github.com/rajewsky-lab/octopus_microRNAs.git
 cd octopus_microRNAs/gene_extension 
 ```
-Run the pipeline:  
+First, try creating conda enviroment:  
+```
+snakemake --use-conda --conda-create-envs-only
+```
+If conda environment has been generated successfully, then try executing the pipeline:  
 ```
 snakemkae -p --use-conda --threads 1 
 ```
