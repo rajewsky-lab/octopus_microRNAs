@@ -8,7 +8,7 @@ bioRxiv 2022.02.15.480520; doi: https://doi.org/10.1101/2022.02.15.480520
 ## Genome annotation   
 Genome annotation files are stored in `genome_annotation` folder.   
 `Octopus_sinensis_annotation.gtf.zip` - genome annotation obtained in the study.  
-
+`isoforms_TAMA_polished.fa.zip` - mRNA isoforms generated from Iso-Seq and FLAM-seq data using TAMA with a polishing step. 
 
 
 # How to cite  
