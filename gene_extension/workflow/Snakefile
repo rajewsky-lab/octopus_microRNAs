@@ -1,0 +1,21 @@
+#
+#
+#
+#
+
+configfile: "workflow/config/config.yaml"
+#include: "rules/flamanalysis.smk"
+#include: "rules/gene_ends.smk"
+include: "rules/gene_extension.smk"
+
+rule all:
+	input: 
+#                expand('results/flamanalysis_out/preprocessDir/{sample}_preprocessed_filtered.fq',sample = config['libraries']),
+#                expand('results/flamanalysis_out/cleanGenomicDir/{sample}_genomic_non_temp_tails.txt',sample = config['libraries']),
+#                expand('results/gene_ends/ends_by_library/{sample}.ends.counted.bed', sample = config['libraries']),
+#		expand('results/gene_ends/upstream_sequences/{sample}.tsv',sample = config['libraries']),
+		"results/gene_extension/genome_extended_wexons.gtf"
+
+
+
+		#expand("results/gene_ends/upstream_sequences/{sample}.tsv",sample = config['libraries']),

@@ -1,0 +1,7 @@
+MAPQ_THRESHOLD: 255 # lower mapping quality threshold for the reads; CAVE! this depends on the aligner choice 
+DEPTH_THRESHOLD: 100 # maximum depth to which count the coverage from aligment files, decreasing it may speedup the pipeline. If set to 0, no threshold is applied
+EXT_THRESHOLD: 60000 # extension length threshold in bp; decreasing significantly speeds up computation
+COV_THRESHOLD: 1 # coverage threshold for extension
+SMOOTHING_WINDOW_SIZE: 1 # window size for median coverage smoothing; in bp. If 1 is supplied, no smoothing is performed
+EXT_FT: 1000 # extension fraction threshold - how big fraction of gene length is allowed to be exteded; extensions > EXT_FT are discarded; if set to big numbers - essentially no thresholding
+GENOME_ANNO: /home/gzolota/genomes/Octopus_sinensis/final_genome/merge_withoutflam/output/tamaFLNCfag_evmgnomon_pcnc_nooverlapexons_corr.gtf # path to genome annotation to extend

@@ -1,0 +1,24 @@
+[1] "/data/local/rajewsky/home/gzolota/R/x86_64-redhat-linux-gnu-library/4.2.2"
+[2] "/data/local/rajewsky/home/gzolota/miniconda/envs/geneext/lib/R/library"   
+[1] "1"                          "data/genome_annotation.gtf"
+[3] "60000"                      ".tmp/closest_genes"        
+[1] 113980     18
+    Min.  1st Qu.   Median     Mean  3rd Qu.     Max. 
+-6560579    -2042        0   -46273        0        0 
+  [1] "COX3" "COX3" "ND5"  "COX3" "ND5"  "COX3" "COX3" "COX3" "COX3" "COX3"
+ [11] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "ND5"  "COX3" "COX3" "COX3"
+ [21] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [31] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [41] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [51] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [61] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [71] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [81] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [91] "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3" "COX3"
+ [ reached getOption("max.print") -- omitted 111315 entries ]
+[1] "after filtering by distance"
+[1] 100097     19
+[1] "distance == 0"
+
+FALSE  TRUE 
+35880 64217 

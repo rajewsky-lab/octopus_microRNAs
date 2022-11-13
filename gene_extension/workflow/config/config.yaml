@@ -1,0 +1,6 @@
+###### Gene Ends configuration #######
+MERGE_DIST: 0
+###### Gene extension configuration ######
+GENOMEANNO: data/genome_annotation.gtf
+COUNT_T: 1 
+ABS_LEN_T: 60000
