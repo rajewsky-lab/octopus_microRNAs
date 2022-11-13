@@ -16,7 +16,8 @@ cd octopus_microRNAs/gene_extension
 ```
 First, try creating conda enviroment:  
 ```
-snakemake --use-conda --conda-create-envs-only
+conda env create --name geneext --file=workflow/envs/env.yaml
+conda activate geneext
 ```
 If conda environment has been generated successfully, then try executing the pipeline:  
 ```
